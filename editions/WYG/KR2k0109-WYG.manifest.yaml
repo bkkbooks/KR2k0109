@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR2k0109/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR2k0109/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 益部方物略記
+  date: '2015-08-24 22:45:52.364200'
+  source:
+    repository: kanripo
+    path: KR2k0109
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR2k0109_000-WYG.yaml, hash: 'sha256:852cbd00b080a26e8b327287ec2b21e8c90c0d48c0589d0f277b291bed3b464c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2k0109_000-WYG.markers.yaml, hash: 'sha256:0b9dd7cb047606266ce5a96c158ffa1bd631a21bd397ccef1e6d26e0bc734d16'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2k0109_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 373
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0109_WYG_000-3a
+    span:
+    - body
+    - 373
+    - 565
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0109_WYG_000-4a
+    span:
+    - body
+    - 565
+    - 4425
+  label: 益部方物畧記
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0109_WYG_000-16a
+    span:
+    - body
+    - 4425
+    - 4671
+  label: 跋
+  type: section
+  level: 1
+hash: sha256:bfb61ae01a5ac1808137a7088b3835f8b29af84c7553e90bc9cf9043bfe15c2f

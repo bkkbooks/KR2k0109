@@ -1,0 +1,70 @@
+canonical_identifier: bkk:krp/KR2k0109/v1
+canonical_location: https://kanripo.org/bkk/KR2k0109/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 益部方物略記
+  date: '2015-08-24 22:45:52.364200'
+  source:
+    repository: kanripo
+    path: KR2k0109
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR2k0109_000.yaml, hash: 'sha256:041d752b65c80d5c0191187d298c454d3ed3fe3b44a43644bf9c1e5b5d47c8ec'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2k0109_000.markers.yaml, hash: 'sha256:1a31686458d1d923eaf68b1a0b6a10292d3e00dce5d288647baddda6e0898f09'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2k0109_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 373
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0109_WYG_000-3a
+    span:
+    - body
+    - 373
+    - 565
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0109_WYG_000-4a
+    span:
+    - body
+    - 565
+    - 4425
+  label: 益部方物畧記
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0109_WYG_000-16a
+    span:
+    - body
+    - 4425
+    - 4671
+  label: 跋
+  type: section
+  level: 1
+hash: sha256:d6448ebd0bc0c00cc838cafe43a45a140dc488a0d0f78d7461eec03875cf2590
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
